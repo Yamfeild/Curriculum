@@ -1,0 +1,55 @@
+    body {font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: rgb(221, 240, 244); /* Cambia el color de fondo de la página */
+    }
+
+    h1 {
+      background-color: black;
+      color: #FDFEFE;
+      text-align: center;
+      color black;
+      padding: 20px;
+
+    }
+img {
+    width: 125px;
+    height: 150px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h3 {
+      color: black;
+      line-height: 1;
+      text-align: center;
+
+    }
+
+
+
+    h2 {
+      color: black; /* Cambia el color de los encabezados h2 */
+    }
+
+    ul {
+      color: black; /* Cambia el color de las viñetas de la lista */
+    }
+    .link{
+    color: black; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    font-weight: bold; /* Aplica negrita al texto del enlace */
+    }
+    p {
+          color: white;
+          line-height: 1;
+          text-align: center;
+        }
+
+    footer {
+      background-color: black; /* Cambia el color de fondo del pie de página */
+      color: #FFFFFF; /* Cambia el color del texto del pie de página */
+      padding: 10px;
+      text-align: center;
+    }
