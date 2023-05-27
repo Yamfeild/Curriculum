@@ -1,55 +1,31 @@
-    body {font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: rgb(221, 240, 244); /* Cambia el color de fondo de la página */
-    }
+    *{
+    margin: 0;
+    /*background-color: rgb(221, 240, 244); /* Cambia el color de fondo de la página */
+    box-sizing: border-box;
+   }
 
-    h1 {
-      background-color: black;
-      color: #FDFEFE;
-      text-align: center;
-      color black;
-      padding: 20px;
-
-    }
-img {
-    width: 125px;
-    height: 150px;
-    display: center;
-    justify-content: center;
-    align-items: center;
-
-
-}
-h3 {
-      color: black;
-      line-height: 1;
-      text-align: center;
+    body{
+    background: url('IMG/purplefont.jpg') no-repeat;
+    background-size: cover;
+    font-family: "Century Gothic",sans-serif;
 
     }
-
-
-
-    h2 {
-      color: black; /* Cambia el color de los encabezados h2 */
+    .Box{
+    width: 500px;
+    background: rgba(0,0,0,.4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    }
+    .box-img{
+    border-radius: 10%;
     }
 
-    ul {
-      color: black; /* Cambia el color de las viñetas de la lista */
-    }
-    .link{
-    color: black; /* Cambia el color del texto del enlace */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    font-weight: bold; /* Aplica negrita al texto del enlace */
-    }
-    p {
-          color: white;
-          line-height: 1;
-          text-align: center;
-        }
+    .box h1{
+    font-size: 50px;
+    letter-spacing: 20px;
+    margin: 30px 0 20px;
 
-    footer {
-      background-color: black; /* Cambia el color de fondo del pie de página */
-      color: #FFFFFF; /* Cambia el color del texto del pie de página */
-      padding: 10px;
-      text-align: center;
     }
