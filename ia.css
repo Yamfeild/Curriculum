@@ -18,14 +18,44 @@
     padding: 20px;
     color: white;
     text-align: center;
-    }
-    .box-img{
     border-radius: 10%;
     }
 
-    .box h1{
-    font-size: 50px;
-    letter-spacing: 20px;
+    }
+    .Box box-img{
+    border-radius: 25%;
+    width: 100%;
+    }
+
+    .Box h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
     margin: 30px 0 20px;
 
     }
+    .Box h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 20px;
+
+    }
+    .p{
+    text-align: justify;
+    }
+    .contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    }
+    .contenedor a{
+
+    font-size: 25px;
+    transition: all ease 300ms;
+
+    }
+    .contenedor a: hover{
+    transform: scale(1.2);
+    }
+
